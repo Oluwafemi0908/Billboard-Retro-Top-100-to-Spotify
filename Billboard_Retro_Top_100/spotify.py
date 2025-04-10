@@ -11,14 +11,14 @@ class Spotify:
         self.artist_name = None
         self.song_response = None
         self.song_uri = None
-        self.client_id = "bcf713c5a2e1438691b064068eeb350d"
-        self.client_secret = "f9f1fa540d20457db9a84d3f53b6305a"
+        self.client_id = "INSERT CLIENT ID HERE"
+        self.client_secret = "iNSERT CLIENT SECRET HERE"
         self.search_num = 0
         sp = SpotifyOAuth(client_id=self.client_id,
                           client_secret=self.client_secret,
                           redirect_uri="http://example.com/",
                           scope="playlist-modify-private playlist-read-private",
-                          username="Oluwafemi Akinode",
+                          username="YOUR SPOTIFY USERNAME",
                           show_dialog=True,
                           cache_path="token.txt",
                           )
