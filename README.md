@@ -7,15 +7,15 @@ Bring back the hits! This tool lets you convert the Billboard Top 100 songs from
 
 ## 🧰 Features
 
-- 🔄 Automatically fetches Billboard Top 100 songs by year
+- 🔄 Automatically fetches Billboard Top 100 songs by year or date
 - 🔎 Searches and matches each track on Spotify
 - 🎧 Creates or updates a Spotify playlist with the full list
 - ✅ Handles duplicates and missing tracks gracefully
 
 ## 🚀 How It Works
 
-1. Choose a year (e.g. `1984`)
-2. The script scrapes Billboard's Top 100 for that year
+1. Choose a date or year (e.g. `1984`, 'august', 'feb', '8-07-1999', 'mar-2025' )
+2. The script scrapes Billboard's Top 100 for that date
 3. It finds the closest matches on Spotify
 4. Then it builds a playlist with those tracks in your Spotify account
 
